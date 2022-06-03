@@ -126,6 +126,6 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 try:
-    from local_settings import SECRET_KEY, DEBUG
+    from local_settings import SECRET_KEY, DEBUG, ALLOWED_HOSTS
 except Exception:
     pass
